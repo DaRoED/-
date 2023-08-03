@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00_Game">
+      <UniqueIdentifier>{daadcb34-a2d6-4dcd-808e-70df8a8637c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Manager">
+      <UniqueIdentifier>{c09766c2-d73d-41fe-937e-c23da9055a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Scene">
+      <UniqueIdentifier>{4ccce247-9e68-4e9e-adb9-6a5c1307b325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99_Headers">
+      <UniqueIdentifier>{92918ad9-a9b9-44e8-935a-6b210a01c83d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99_Headers\Andromeda">
+      <UniqueIdentifier>{96cf91c5-a0b4-4b18-a827-c4bbf7555b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Object">
+      <UniqueIdentifier>{06f953f6-ed3b-4341-8b19-7575bee336a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinGameCodingCopyProject.h">
+      <Filter>00_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>99_Headers\Andromeda</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99_Headers\Andromeda</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99_Headers\Andromeda</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>00_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>99_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>99_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>99_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>99_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>99_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>01_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>01_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>01_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>01_Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WinGameCodingCopyProject.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="WinGameCodingCopyProject.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinGameCodingCopyProject.cpp">
+      <Filter>00_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>00_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>99_Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>99_Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>01_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>01_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>01_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>01_Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

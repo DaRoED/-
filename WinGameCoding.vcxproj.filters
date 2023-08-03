@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00_MainGame">
+      <UniqueIdentifier>{2d5409c4-ed20-4f42-9489-17778f09e2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Manager">
+      <UniqueIdentifier>{08a16334-6bd8-4da8-b3e0-361f64449b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99_Headers">
+      <UniqueIdentifier>{4bd48d31-0fb9-452a-82d5-a08a8d1b2847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99_Headers\Andromeda">
+      <UniqueIdentifier>{daea94ae-58e4-467c-8db4-90824cda631c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Scene">
+      <UniqueIdentifier>{80f5abb5-ffac-48ed-a892-e4120afbb497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Object">
+      <UniqueIdentifier>{be3d6902-c1ea-48d0-9f59-2e67c8058600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Scene\Game">
+      <UniqueIdentifier>{21c2f19b-055b-40c6-a7cb-7e9ac335446c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Object\Game">
+      <UniqueIdentifier>{c2266e49-b0ca-44eb-b04f-b5bf1ceb95b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Resources">
+      <UniqueIdentifier>{1ece10ca-a2eb-4583-8c7c-181f602833e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Resources\game">
+      <UniqueIdentifier>{a896c978-1046-4ad4-9970-aa73135e2852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Manager\Game">
+      <UniqueIdentifier>{b3800da2-9de9-4556-b0ae-adc60ea29a00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>99_Headers\Andromeda</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99_Headers\Andromeda</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99_Headers\Andromeda</Filter>
+    </ClInclude>
+    <ClInclude Include="WinGameCoding.h">
+      <Filter>00_MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>99_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>99_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>99_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>00_MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>99_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>01_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>01_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>03_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>99_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMananger.h">
+      <Filter>01_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="DevScene.h">
+      <Filter>03_Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>03_Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>04_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>04_Object\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>04_Object\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectTile.h">
+      <Filter>04_Object\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>01_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EditScene.h">
+      <Filter>03_Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceBase.h">
+      <Filter>05_Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="LineMesh.h">
+      <Filter>05_Resources\game</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>01_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>01_Manager\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Values.h">
+      <Filter>99_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FortressScene.h">
+      <Filter>03_Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>03_Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>04_Object\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WinGameCoding.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="WinGameCoding.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinGameCoding.cpp">
+      <Filter>00_MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>99_Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>00_MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>01_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>01_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>03_Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>99_Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMananger.cpp">
+      <Filter>01_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DevScene.cpp">
+      <Filter>03_Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>03_Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>04_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>04_Object\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>04_Object\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectTile.cpp">
+      <Filter>04_Object\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>01_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EditScene.cpp">
+      <Filter>03_Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceBase.cpp">
+      <Filter>05_Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="LineMesh.cpp">
+      <Filter>05_Resources\game</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>01_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>01_Manager\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="FortressScene.cpp">
+      <Filter>03_Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>03_Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>04_Object\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint">
+      <Filter>99_Headers</Filter>
+    </None>
+  </ItemGroup>
+</Project>
